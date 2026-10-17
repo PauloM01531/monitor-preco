@@ -1,0 +1,16 @@
+{
+  "intervalo_minutos": 60,
+  "alertas": {
+    "desktop": true,
+    "telegram": false,
+    "email_para": ""
+  },
+  "produtos": [
+    {
+      "nome": "Livro de teste (site feito para treinar scraping)",
+      "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+      "seletor": "p.price_color",
+      "preco_alvo": 40.00
+    }
+  ]
+}
